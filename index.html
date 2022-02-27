@@ -2,10 +2,13 @@
 <!--Baktygul Aliev -- capstone project -- Savvy Coders -->
 <html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Sweet Spot App</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body id="wrapper">
+<div id="wrapper">
+<body>
     <header>
         <nav>
             <a href="index.html">Main</a>
@@ -17,7 +20,7 @@
     <main>
         <section>
             <h2>Enter a US location to explore its weather factors:</h2>
-            <form>
+            <form class="form">
                 <label for="state">Select state:</label>
                     <select name="state">
                         <option value="AK">Alaska</option> <!--is there an API to list all states or should it be done manually?-->
@@ -36,7 +39,7 @@
         </section>
         <section>
             <h2>Select weather factors to track:</h2>
-            <form>
+            <form class="form">
                 <input type="checkbox" name="barp" value="barometric_presssure">
                 <label for="barp">Barometric pressure</label>
                 <input type="checkbox" name="temp" value="temperature">
@@ -46,10 +49,10 @@
         
     </main>
     <footer>
-
+@Copyright Baktygul Aliev
     </footer>
 </body>
-
+</div>
 </html>
 
 
